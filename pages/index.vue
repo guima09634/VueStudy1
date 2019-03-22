@@ -17,6 +17,8 @@
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey">GitHub</a>
+        <nuxt-link to="/about">ABOUT</nuxt-link>
+        <nuxt-link to="/show">SHOW</nuxt-link>
       </div>
     </div>
   </section>
