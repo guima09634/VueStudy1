@@ -1,7 +1,17 @@
 <template>
-  <div>
-    <nuxt/>
-  </div>
+  <el-container>
+    <el-header>
+    </el-header>
+    <el-container>
+      <el-aside width="200px">
+      </el-aside>
+      <el-main>
+        <transition name="el-fade-in-linear">
+          <nuxt/>
+        </transition>
+      </el-main>
+    </el-container>
+  </el-container>
 </template>
 
 <style>
