@@ -33,7 +33,13 @@ export default {
         {icon:'el-icon-phone', name:'客服'}
       ],
       menuList: [
-        {},
+        /*{'后台': [{'功能1':'testShow/back'}, {'功能2':'back/two'}, {'功能3':'back/three'}]},
+        {'客服': [{'功能1':''}, {'功能2':''}, {'功能3':''}]},
+        {'储值': [{'功能1':''}, {'功能2':''}, {'功能3':''}]},*/
+        {name:"后台", class:""},
+        {name:"客服", class:""},
+        {name:"储值", class:""}
+
       ]
     }
   }
